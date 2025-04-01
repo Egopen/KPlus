@@ -1,0 +1,71 @@
+[
+  {
+    "ContainingType": "KPProject.UI.DocsController",
+    "Method": "GetStartDocs",
+    "RelativePath": "Franchisto/Docs/GetStartDocs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KPProject.UI.DocsController",
+    "Method": "SearchByQuery",
+    "RelativePath": "Franchisto/Docs/SearchByQuery",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KPProject.UI.StatisticsController",
+    "Method": "AddStatistics",
+    "RelativePath": "Franchisto/Statistics/AddStatistics",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stats",
+        "Type": "KPProject.DTO.Request.AddStatsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KPProject.UI.StatisticsController",
+    "Method": "AddStatisticsToDocs",
+    "RelativePath": "Franchisto/Statistics/AddStatisticsToDocs",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stats",
+        "Type": "KPProject.DTO.Request.AddStatsToDocsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

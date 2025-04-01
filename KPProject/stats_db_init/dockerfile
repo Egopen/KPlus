@@ -1,0 +1,3 @@
+FROM postgres
+
+ADD ./stats_db_init/backup_stats.sql /docker-entrypoint-initdb.d/
