@@ -379,3 +379,40 @@
     position:absolute;
     top:50px;    
 }
+
+.search-container {
+    background-color: white;
+    color:#F35E1F;
+    padding-right: 100px;
+    margin-top: 10px;
+    float:left;
+    display: flex;
+    gap: 0;
+  }
+  
+  #search-input {
+    margin-top: 10px;
+    font-size: 16px;
+    color:#F35E1F;
+    border:2px solid #F35E1F;
+    margin-left: 140px;
+    width: 300px;
+    height: 30px;
+  }
+  
+  #search-button {
+    margin: 10px;
+    margin-left: 0px;
+    font-size: 16px;
+    background-color: #F35E1F;
+    color: white;
+    height:30px;
+    width:100px;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  #search-button:hover {
+    background-color: #c65423;
+  }
