@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фран4исто</title>
+    <link rel = "stylesheet" href = "./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
+    <script src="./js/bur.js"></script>
+</head>
+
+<body>
+    
+    <div class = "header">
+        <div class="container">
+            <div class = "header__top">
+                <div class="header__name">
+                    <a href="/">Фран4исто</a>
+                </div>
+                <div class="burger-menu" onclick="toggleNav()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+
+                <div class="side-nav" id="sideNav">
+                    <div class="header">
+                        <a href="javascript:void(0)" class="close-btn" onclick="toggleNav()">&times;</a>
+                    </div>
+                    <div class = "menu-panel">
+                        <a href="/calculator" class="menu-btn">
+                            <img src = "./img/icons8-калькулятор-50.png" class = "icon-calc">
+                            <i class="fas fa-calculator"></i> Калькулятор
+                        </a>
+                        <a href="/check_doc" class="menu-btn">
+                            <img src = "./img/icons8-документы-50.png" class = "icon-docs">
+                            <i class="fas fa-file-alt"></i> Проверка документов
+                        </a>
+                    </div>
+                </div>
+                
+                
+            <div class="header__down">
+                <div class = "header-title1">
+                    Твой помощник в запуске
+                    <br>
+                    франшизы.
+                </div>
+                <div class = "header-line">
+                    <img src="./img/Line 4.jpg" class = "line">
+                </div>
+                <div class = "header-title2">
+                    Наш инструмент поможет Вам оценить риски и получить 
+                    <br>
+                    рекомендации по их снижению.
+                    <br>
+                    Загрузите документ в окно ниже, а наша система выделит 
+                    <br>
+                    риски в договоре.
+                </div>
+                <div class="header-img">
+                    <img src="./img/OF71XR0 1.jpg" class = "main-pic">
+                </div>
+                <button class="upload-button">Загрузить документ</button>
+                <button class="checklist-button">Чек-лист</button>
+            </div>
+        </div>
+    </header>
+
+</body>
+</html>
