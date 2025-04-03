@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Сайт",
+			"path": "../../../Сайт"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
