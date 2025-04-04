@@ -17,12 +17,18 @@ app.get('/check_doc', (req, res) => {
   res.sendFile(path.join(__dirname, './public/check_doc.html'));
 });
 
+app.get('/articles_search', (req, res) => {
+  res.sendFile(path.join(__dirname, './public/articles_search.html'));
+});
+
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, './public/index.html'));
 });
+
 app.use((req, res) => {
     res.redirect('/');
 });
+
 // Запуск сервера
 const PORT = 3000;
 app.listen(PORT, () => {
