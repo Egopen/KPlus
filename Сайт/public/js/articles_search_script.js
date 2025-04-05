@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
           const li = document.createElement("li");
           const link = document.createElement("a");
           link.textContent = risk.title;
-          link.setAttribute("href", `http://localhost:5295/Franchisto/Docs/View?id=${risk.id}`);
+          link.setAttribute("href", `http://localhost:3000/article?id=${risk.id}`);
           li.appendChild(link);
           li.setAttribute("data-id", risk.id);
           listElement.appendChild(li);

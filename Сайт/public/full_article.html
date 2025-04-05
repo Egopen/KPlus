@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Фран4исто</title>
-    <link rel = "stylesheet" href = "./css/main.css">
     <script src="./js/bur.js"></script>
-    <script src="./js/articles_search_script.js"></script>
+    <link rel = "stylesheet" href = "./css/main.css">
+    <link rel = "stylesheet" href = "./css/article.css">
 </head>
 <body id="body">
-    <div class = "header">
+    <div class="header">
         <div class="container">
-            <div class = "header__top">
+            <div class="header__top">
                 <div class="header__name">
                     <a href="/">Фран4исто</a>
                 </div>
@@ -24,7 +24,7 @@
                     <div class="header">
                         <a href="javascript:void(0)" class="close-btn" onclick="toggleNav()">&times;</a>
                     </div>
-                    <div class = "menu-panel">
+                    <div class="menu-panel">
                         <a href="/calculator" class="menu-btn">
                             <i class="fas fa-calculator"></i> Калькулятор
                         </a>
@@ -36,27 +36,12 @@
                         </a>
                     </div>
                 </div>
-            <div class = "articles__down">
-                <div class = "articles-title1">
-                    Риски
-                </div>
-                <div class = "articles-title2">
-                    Здесь мы реализовали возможность поиска по рискам,
-                    <br>
-                    с которыми Вы можете столкнуться при заключении договора 
-                    <br>
-                    коммерческой концессии.
-                </div>
-                <div class="search-container">
-                    <input type="text" id="search-input" placeholder="Введите риск..." autocomplete="off"/>
-                    <button id="search-button">Поиск</button>
-                </div>
-                <div class = "article-img">
-                    <img src = "./img/4574.jpg">
-                </div>
-                <ul id="list" >
-
-                </ul>
+            </div>
+            <div class="content" id="content"></div> 
+        </div>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="./js/full_article_script.js" defer></script>
 </body>
 </html>

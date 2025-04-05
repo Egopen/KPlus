@@ -1,0 +1,111 @@
+/* Основной контейнер для контента */
+#content {
+    margin-left: 84px !important;
+    background-color: #ffffff;
+    color: #000000;
+    min-height: 100px;
+    padding: 20px;
+    overflow: auto;
+    z-index: 1;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    margin-right: 86px !important;
+    margin-top: 20px;
+}
+
+/* Главный заголовок */
+#content h1 {
+    color: #F35E1F;
+    font-family: "Arial";
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Подзаголовки */
+#content h2 {
+    color: #F35E1F;
+    font-family: "Arial";
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Подписи для дополнительных элементов */
+#content h3 {
+    color: #F35E1F;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Обычный текст */
+#content div {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Переносы строк */
+#content br {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Стилизация таблиц */
+#content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#content table th, #content table td {
+    padding: 10px;
+    border: 1px solid #F35E1F;
+    text-align: left;
+}
+
+#content table th {
+    background-color: #ECEBEB;
+    color: #F35E1F;
+    font-weight: bold;
+}
+
+#content table td {
+    color: #333;
+}
+
+#content table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#content table td[colspan] {
+    text-align: center;
+    background-color: #F35E1F;
+    color: white;
+}
+
+/* Формулы */
+#content .formula {
+    font-size: 20px;
+    font-family: "Courier New", monospace;
+    color: #F35E1F;
+    background-color: #ECEBEB;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Текст с форматированием */
+#content .inline-text {
+    font-style: italic;
+    color: #333;
+    font-weight: normal;
+}
+
+#content .important {
+    font-weight: bold;
+    color: #F35E1F;
+}

@@ -8,7 +8,9 @@ app.use(express.static(__dirname + '/public'));
 app.get('/articles', (req, res) => {
   res.sendFile(path.join(__dirname, './public/articles.html'));
 });
-
+app.get('/article', (req, res) => {
+  res.sendFile(path.join(__dirname, './public/full_article.html'));
+});
 app.get('/calculator', (req, res) => {
   res.sendFile(path.join(__dirname, './public/calculator.html'));
 });
@@ -24,6 +26,7 @@ app.get('/articles_search', (req, res) => {
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, './public/index.html'));
 });
+
 
 app.use((req, res) => {
     res.redirect('/');
