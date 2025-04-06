@@ -123,7 +123,7 @@
 .header-img{
     width: 350px;
     margin-top: 60px;
-    margin-left: 848px;
+    margin-left: 878px;
     margin-bottom: 100px;
 }
 
@@ -142,17 +142,19 @@
     font-weight:bold;
 }
 
-.header-line{
-    padding-top: 20px;
-    float: left;
-    margin-right: 150px;
-    margin-left: 150px;;
-}
+.header-line {
+    width: 475px;
+    height: 2px;
+    background-color: #F35E1F;
+    margin-left:150px;
+    margin-top:10px;
+    float:left;
+  }
 
 .header-title2{
     color: #F35E1F;
     font-size: 16px;
-    padding-top: 0px;
+    padding-top: 10px;
     float: left;
     margin-left: 150px;
     margin-right: 200px;
@@ -319,6 +321,11 @@
 .icon-docs{
     width: 25px;
 }
+
+.icon-search{
+    width: 25px;
+}
+
 .open-form-button{
     background-color: #F35E1F; 
     color: white;
@@ -373,11 +380,11 @@
 }
 
 .article-img{
-    width: 300px;
-    margin-left: 810px;
+    width: 250px;
+    margin-left: 910px;
     margin-bottom: 100px;
     position:absolute;
-    top:50px;    
+    top:80px;    
 }
 
 .search-container {
