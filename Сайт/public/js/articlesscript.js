@@ -3,10 +3,36 @@ document.addEventListener("DOMContentLoaded", () => {
     const listElement = document.getElementById("list");
     const searchInput = document.getElementById("search-input");
     const searchButton = document.getElementById("search-button");
-  
+    fetch("http://localhost:5295/Franchisto/Statistics/AddStatistics", {
+      method: "PUT",
+      headers: {
+        "Accept": "application/json",
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        statName: "Вход на страницу с документами",
+        count: 1
+      }),
+      keepalive: true
+    }).catch(err => {
+      console.error("Ошибка при отправке статистики:", err);
+    });
     searchButton.addEventListener("click", () => {
       const query = searchInput.value.trim();
-  
+      fetch("http://localhost:5295/Franchisto/Statistics/AddStatistics", {
+        method: "PUT",
+        headers: {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          statName: "Использование поиска",
+          count: 1
+        }),
+        keepalive: true
+      }).catch(err => {
+        console.error("Ошибка при отправке статистики:", err);
+      });
       if (query) {
         window.location.href = `/articles_search?query=${encodeURIComponent(query)}&page=1`;
       }
