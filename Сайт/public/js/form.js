@@ -12,11 +12,20 @@ function calculate() {
       total += parseFloat(selected.value);
     }
     sendStats()
-    if (total > 4) {
-      alert("✅ Высокий коэффициент: " + total.toFixed(3));
-    } else if (total < 3) {
-      alert("⚠️ Низкий коэффициент: " + total.toFixed(3));
+    if (total > 4.4) {
+      showCustomAlert("✅ Высокий коэффициент: " + total.toFixed(3));
+    } else if (total < 3.2) {
+      showCustomAlert("⚠️ Низкий коэффициент: " + total.toFixed(3));
     } else {
-      alert("🟡 Средний коэффициент: " + total.toFixed(3));
+      showCustomAlert("🟡 Средний коэффициент: " + total.toFixed(3));
     }
+  }
+
+  function showCustomAlert(message) {
+    document.getElementById("customAlertText").innerText = message;
+    document.getElementById("customAlert").classList.remove("hidden");
+  }
+  
+  function closeCustomAlert() {
+    document.getElementById("customAlert").classList.add("hidden");
   }
