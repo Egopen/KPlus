@@ -7,7 +7,20 @@ document.addEventListener("DOMContentLoaded", () => {
       contentDiv.innerHTML = "<p>Ошибка: Параметр 'id' не найден в URL.</p>";
       return; 
     }
-  
+    fetch("http://localhost:5295/Franchisto/Statistics/AddStatistics", {
+      method: "PUT",
+      headers: {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+          statName: "Переход на страницу документа из поиска",
+          count: 1
+      }),
+      keepalive: true
+  }).catch(err => {
+      console.error("Ошибка при отправке статистики:", err);
+  });
     let startTime = Date.now();
     
     const API_URL = `http://localhost:5295/Franchisto/Docs/GetDocById?id=${id}`;

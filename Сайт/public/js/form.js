@@ -1,3 +1,4 @@
+
 function calculate() {
     const names = ["location", "network", "budget", "metro", "competitors"];
     let total = 0;
@@ -10,7 +11,7 @@ function calculate() {
       }
       total += parseFloat(selected.value);
     }
-
+    sendStats()
     if (total > 4) {
       alert("✅ Высокий коэффициент: " + total.toFixed(3));
     } else if (total < 3) {

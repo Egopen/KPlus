@@ -19,7 +19,7 @@ document.getElementById('fileInput').addEventListener('change', function(event) 
 
         fileNameSpan.textContent = file.name;
         uploadText.textContent = "Файл загружен";
-
+        SendCheckDocStats();
         // Вариант 1: Показываем иконку PDF
         //preview.src = "pdf-icon.png"; // Укажи путь к иконке PDF
         
