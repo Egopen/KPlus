@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фран4исто</title>
+    <link rel = "stylesheet" href = "./css/main.css">
+</head>
+<body>
+    <div class = "header">
+        <div class="container">
+            <div class = "header__top">
+                <div class="header__name">
+                    <a href="/index">Фран4исто</a>
+                </div>
+                <div class="burger-menu" onclick="toggleNav()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div class="side-nav" id="sideNav">
+                    <div class="header">
+                        <a href="javascript:void(0)" class="close-btn" onclick="toggleNav()">&times;</a>
+                    </div>
+                    <div class = "menu-panel">
+                        <a href="/check_doc" class="menu-btn">
+                            <img src = "./img/icons8-документы-50.png" class = "icon-docs">
+                            <i class="fas fa-file-alt"></i> Проверка документов
+                        </a>
+                        <a href="/articles" class="menu-btn">
+                            <img src = "./img/icons8-поиск-64.png" class = "icon-search">
+                            <i class="fas fa-book"></i> Риски
+                        </a>
+                        <a href="/calculator" class="menu-btn">
+                            <img src = "./img/icons8-калькулятор-50.png" class = "icon-calc">
+                            <i class="fas fa-calculator"></i> Калькулятор
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <h1>Опросник для клуба</h1>
+
+            <div class="question">
+                <h3>Где будет располагаться ваш Клуб?</h3>
+                <label><input type="radio" name="location" value="1.005" /> Торговый центр</label>
+                <label><input type="radio" name="location" value="1.001" /> Цокольный этаж жилого дома</label>
+                <label><input type="radio" name="location" value="1.008" /> Отдельное здание</label>
+                <label><input type="radio" name="location" value="0.801" /> Другое</label>
+            </div>
+
+            <div class="question">
+                <h3>Какая сеть?</h3>
+                <label><input type="radio" name="network" value="2.0" /> Colizeum</label>
+                <label><input type="radio" name="network" value="1.2" /> F5</label>
+                <label><input type="radio" name="network" value="1.5" /> Кибертека</label>
+                <label><input type="radio" name="network" value="0.7" /> Другое</label>
+            </div>
+
+            <div class="question">
+                <h3>Какой у вас бюджет?</h3>
+                <label><input type="radio" name="budget" value="0.5" /> До 1 млн руб.</label>
+                <label><input type="radio" name="budget" value="1.0" /> 1-3 млн руб.</label>
+                <label><input type="radio" name="budget" value="1.5" /> 3-5 млн руб.</label>
+                <label><input type="radio" name="budget" value="2.0" /> Более 5 млн руб.</label>
+            </div>
+
+            <div class="question">
+                <h3>Расстояние до метро:</h3>
+                <label><input type="radio" name="metro" value="1.08" /> менее 500 метров</label>
+                <label><input type="radio" name="metro" value="1.06" /> менее 1500 метров</label>
+                <label><input type="radio" name="metro" value="1.03" /> менее 2500 метров</label>
+                <label><input type="radio" name="metro" value="1.001" /> более 2500 метров</label>
+            </div>
+
+            <div class="question">
+                <h3>Конкуренты в радиусе 1 км:</h3>
+                <label><input type="radio" name="competitors" value="0.001" /> Да</label>
+                <label><input type="radio" name="competitors" value="0.009" /> Нет</label>
+            </div>
+
+            <button onclick="calculate()">Рассчитать</button>
+        </div>
+    </div>
+    <script src = "./js/form.js"></script>
+</body>
+</html>
+        
