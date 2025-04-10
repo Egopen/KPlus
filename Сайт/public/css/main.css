@@ -29,8 +29,12 @@
     text-decoration: none;
 }
 
+::-webkit-scrollbar {
+    display: none;
+  }
+
 .burger-menu {
-    position: fixed;
+    position: absolute;
     top: 25px;
     right: 84px;
     cursor: pointer;
@@ -458,6 +462,15 @@
     color: #F35E1F;
     font-size: 32px;
     font-weight: bold;
+    margin-top:30px;
+    margin-left:150px;
+  }
+
+  .warning{
+    font-family: "Inter", sans-serif;
+    color: #F35E1F;
+    font-size: 16px;
+    font-weight:normal;
     margin-top:30px;
     margin-left:150px;
   }
