@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
       contentDiv.innerHTML = "<p>Ошибка: Параметр 'id' не найден в URL.</p>";
       return; 
     }
-    fetch("http://localhost:5295/Franchisto/Statistics/AddStatistics", {
+    fetch("http://localhost:8080/Franchisto/Statistics/AddStatistics", {
       method: "PUT",
       headers: {
           "Accept": "application/json",
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
     let startTime = Date.now();
     
-    const API_URL = `http://localhost:5295/Franchisto/Docs/GetDocById?id=${id}`;
+    const API_URL = `http://localhost:8080/Franchisto/Docs/GetDocById?id=${id}`;
     
     fetch(API_URL)
       .then((res) => {
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const endTime = Date.now();
       const secondsSpent = Math.floor((endTime - startTime) / 1000);
   
-      fetch("http://localhost:5295/Franchisto/Statistics/AddStatisticsToDocs", {
+      fetch("http://localhost:8080/Franchisto/Statistics/AddStatisticsToDocs", {
         method: "PUT",
         headers: {
           "Accept": "application/json",

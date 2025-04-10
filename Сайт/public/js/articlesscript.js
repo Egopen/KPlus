@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const API_URL = "http://localhost:5295/Franchisto/Docs/GetStartDocs";
+    const API_URL = "http://localhost:8080/Franchisto/Docs/GetStartDocs";
     const listElement = document.getElementById("list");
     const searchInput = document.getElementById("search-input");
     const searchButton = document.getElementById("search-button");
-    fetch("http://localhost:5295/Franchisto/Statistics/AddStatistics", {
+    fetch("http://localhost:8080/Franchisto/Statistics/AddStatistics", {
       method: "PUT",
       headers: {
         "Accept": "application/json",
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     searchButton.addEventListener("click", () => {
       const query = searchInput.value.trim();
-      fetch("http://localhost:5295/Franchisto/Statistics/AddStatistics", {
+      fetch("http://localhost:8080/Franchisto/Statistics/AddStatistics", {
         method: "PUT",
         headers: {
           "Accept": "application/json",

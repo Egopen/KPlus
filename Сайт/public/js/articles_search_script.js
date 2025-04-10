@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const searchInput = document.getElementById("search-input");
     const searchButton = document.getElementById("search-button");
     searchButton.addEventListener("click", () => {
-      fetch("http://localhost:5295/Franchisto/Statistics/AddStatistics", {
+      fetch("http://localhost:8080/Franchisto/Statistics/AddStatistics", {
         method: "PUT",
         headers: {
           "Accept": "application/json",
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
   
-    const API_URL = `http://localhost:5295/Franchisto/Docs/SearchByQuery?query=${encodeURIComponent(query)}&page=${page}`;
+    const API_URL = `http://localhost:8080/Franchisto/Docs/SearchByQuery?query=${encodeURIComponent(query)}&page=${page}`;
   
     fetch(API_URL)
       .then((res) => res.json())

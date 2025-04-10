@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-        fetch("http://localhost:5295/Franchisto/Statistics/AddStatistics", {
+        fetch("http://localhost:8080/Franchisto/Statistics/AddStatistics", {
             method: "PUT",
             headers: {
                 "Accept": "application/json",
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 function SendCheckDocStats(){
-    fetch("http://localhost:5295/Franchisto/Statistics/AddStatistics", {
+    fetch("http://localhost:8080/Franchisto/Statistics/AddStatistics", {
         method: "PUT",
         headers: {
             "Accept": "application/json",
