@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Фран4исто</title>
-    <link rel = "stylesheet" href = "./css/main.css">
+    <link rel = "stylesheet" href = "./css/articles.css">
     <script src="./js/bur.js"></script>
     <script src="./js/articlesscript.js"></script>
 </head>
 <body>
-    <div class = "header">
-        <div class="container">
-            <div class = "header__top">
+    <div class="page-wrapper">
+        <header class="header">
+            <div class="header__top">
                 <div class="header__name">
                     <a href="/">Фран4исто</a>
                 </div>
@@ -39,7 +39,11 @@
                         </a>
                     </div>
                 </div>
-            <div class = "articles__down">
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class = "articles">
                 <div class = "articles-title1">
                     Риски
                 </div>
@@ -54,12 +58,36 @@
                     <input type="text" id="search-input" placeholder="Введите риск..." autocomplete="off" />
                     <button id="search-button">Поиск</button>
                 </div>
-                <div class = "article-img">
-                    <img src = "./img/4574.jpg">
+                <div class="article-img-container">
+                    <img src="./img/4574.jpg" class="article-img">
                 </div>
-                <ul id="list" >
+                <ul id="list"></ul>
+            </section>
+        </main>
 
-                </ul>
+        <footer class="footer">
+            <div class="uppder_footer">
+                <div>
+                    <p class="footer_header">Наши контакты:</p>
+                    <p>Email: franchisto@gmail.com</p>
+                    <p>Телефон: +79996667775</p>
+                </div>
+                <div>
+                    <p class="footer_header">Наш адрес:</p>
+                    <p>117292, Москва, ул. Кржижановского, 6</p>
+                </div>
+                <div>
+                    <p class="footer_header">Наши социальные сети:</p>
+                    <p class="social_media"><img src="img/tglogo.png" class="footer-img">Telegram</p>
+                    <p class="social_media"><img src="img/vklogo.png" class="footer-img">Вконтакте</p>
+                </div>
+            </div>
+            <div class="bottom_footer">
+                <div>
+                    Все права защищены © 2025 ФранЧисто
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
