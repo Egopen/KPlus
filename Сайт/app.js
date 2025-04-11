@@ -31,6 +31,9 @@ app.get('/form', (req, res) => {
   res.sendFile(path.join(__dirname, './public/form.html'));
 });
 
+app.get('/doc_analysis', (req, res) => {
+  res.sendFile(path.join(__dirname, './public/doc_analysis.html'));
+});
 
 app.use((req, res) => {
     res.redirect('/');

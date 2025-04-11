@@ -15,7 +15,7 @@ document.getElementById('fileInput').addEventListener('change', function(event) 
         // Проверяем, что файл - это PDF
         if (file.type !== "application/pdf") {
             alert("Пожалуйста, загрузите только PDF-файл!");
-            event.target.value = null; // Сброс input
+            event.target.value = null; 
             fileNameSpan.textContent = "Файл не выбран";
             uploadText.textContent = "Нажмите для загрузки";
             preview.style.display = 'none';
