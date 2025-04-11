@@ -117,6 +117,17 @@ body {
     white-space: nowrap;
 }
 
+.icon-calc{
+    width : 25px;
+}
+
+.icon-docs{
+    width: 25px;
+}
+
+.icon-search{
+    width: 25px;
+}
 .menu-btn i {
     margin-right: 3px;
 }
