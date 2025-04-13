@@ -15,7 +15,7 @@
 
 /* Главный заголовок */
 #content h1 {
-    color: #F35E1F;
+    color: #da4a16;
     font-family: "Arial";
     font-size: 36px;
     font-weight: bold;
@@ -24,7 +24,7 @@
 
 /* Подзаголовки */
 #content h2 {
-    color: #F35E1F;
+    color: #da4a16;
     font-family: "Arial";
     font-size: 28px;
     font-weight: bold;
@@ -33,7 +33,7 @@
 
 /* Подписи для дополнительных элементов */
 #content h3 {
-    color: #F35E1F;
+    color: #da4a16;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -63,13 +63,13 @@
 
 #content table th, #content table td {
     padding: 10px;
-    border: 1px solid #F35E1F;
+    border: 1px solid #da4a16;
     text-align: left;
 }
 
 #content table th {
     background-color: #ECEBEB;
-    color: #F35E1F;
+    color: #da4a16;
     font-weight: bold;
 }
 
@@ -83,7 +83,7 @@
 
 #content table td[colspan] {
     text-align: center;
-    background-color: #F35E1F;
+    background-color: #da4a16;
     color: white;
 }
 
@@ -91,7 +91,7 @@
 #content .formula {
     font-size: 20px;
     font-family: "Courier New", monospace;
-    color: #F35E1F;
+    color: #da4a16;
     background-color: #ECEBEB;
     padding: 10px;
     border-radius: 5px;
@@ -107,5 +107,5 @@
 
 #content .important {
     font-weight: bold;
-    color: #F35E1F;
+    color: #da4a16;
 }

@@ -14,15 +14,15 @@ function calculate() {
     sendStats()
 
     const maxScore = 6.207;
-    const percent = (total / maxScore) * 100 - 1;
-    const coefficient = (total-0.01) / maxScore;
+    const percent = (total / maxScore) * 100;
+    const coefficient = (total) / maxScore;
     const percentStr = percent.toFixed(1) + "%";
-    if (percent > 71) {
-      showCustomAlert("✅ Высокий коэффициент: " + percentStr, "#28a745");
+    if (percent >= 71) {
+      showCustomAlert("✅ Высокий коэффициент: " + percentStr,"rgb(31, 126, 34)");
     } else if (percent < 51) {
-      showCustomAlert("⚠️ Низкий коэффициент: " + percentStr, "#dc3545");
+      showCustomAlert("⚠️ Низкий коэффициент: " + percentStr, "#b94a48");
     } else {
-      showCustomAlert("🟡 Средний коэффициент: " + percentStr, "#ffc107");
+      showCustomAlert("🟡 Средний коэффициент: " + percentStr, "#d6a934");
     }
     setTimeout(() => showExplanationAlert(coefficient), 1000);
 }
@@ -35,8 +35,9 @@ function calculate() {
     alertBox.style.right = "20px";
     alertBox.style.padding = "15px 25px";
     alertBox.style.backgroundColor = color;
-    alertBox.style.color = "white";
-    alertBox.style.fontSize = "16px";
+    alertBox.style.color = (color === "#d6a934") ? "#333333" : "#ffffff";
+    alertBox.style.fontSize = "18px";
+    alertBox.style.fontFamily = "'Inter', sans-serif";
     alertBox.style.borderRadius = "8px";
     alertBox.style.boxShadow = "0 4px 12px rgba(0, 0, 0, 0.3)";
     alertBox.style.opacity = "0";
@@ -52,17 +53,17 @@ function calculate() {
       alertBox.style.transform = "translateY(0)";
     });
   
-    // Remove after 4 seconds
     setTimeout(() => {
       alertBox.style.opacity = "0";
       alertBox.style.transform = "translateY(-20px)";
-      setTimeout(() => document.body.removeChild(alertBox), 900);
-    }, 5000);
+      setTimeout(() => document.body.removeChild(alertBox), 1500);
+    }, 7000);
   }
 
   function showExplanationAlert(coefficient) {
     let explanation = "";
-    let color = "";
+    let bgColor = "";
+    let textColor = "";
   
     if (coefficient >= 0.01 && coefficient <= 0.509) {
       explanation = `
@@ -73,8 +74,9 @@ function calculate() {
   Исходя из предоставленных Вами данных, предполагаемые доходы от использования франшизы значительно ниже совокупных затрат, которые Вы потратите на открытие киберспортивного клуба.
   Полученный коэффициент говорит о низкой рентабельности проекта и высоких рисках окупаемости.
       `;
-      color = "#dc3545"; // красный
-    } else if (coefficient >= 0.51 && coefficient <= 0.71) {
+      bgColor = "#b94a48"; // матовый красный
+      textColor = "#ffffff";
+    } else if (coefficient >= 0.51 && coefficient < 0.71) {
       explanation = `
   Если Ваш процент в диапазоне от 51% до 71% — умеренная экономическая эффективность
   
@@ -83,8 +85,9 @@ function calculate() {
   Исходя из предоставленных Вами данных Вы находитесь в приемлемом диапазоне, при котором проект имеет шансы на окупаемость, но остается уязвимым к колебаниям доходов и затрат.
   Это означает, что прибыль от бизнеса покрывает расходы частично, и для достижения устойчивой выгоды необходимо провести более детальный анализ, чтобы оценить риски и потенциал дальнейшего увеличения выгоды.
       `;
-      color = "#ffc107"; // жёлтый
-    } else if (coefficient > 0.71 && coefficient <= 1) {
+      bgColor = "#d6a934"; // матовый жёлтый
+      textColor = "#333333";
+    } else if (coefficient >= 0.71 && coefficient <= 1) {
       explanation = `
   Если Ваш процент в диапазоне от 71% до 100%  — высокая экономическая эффективность
   
@@ -93,7 +96,8 @@ function calculate() {
   Исходя из предоставленных Вами данных Ваш проект демонстрирует высокую вероятность финансовой устойчивости и способность покрыть все основные издержки в рамках существующих условий договора.
   Полученная информация свидетельствует о высокой вероятности успешного внедрения и окупаемости проекта.
       `;
-      color = "#28a745"; // зелёный
+      bgColor = "rgb(31, 126, 34)"; // матовый зелёный
+      textColor = "#ffffff";
     } else {
       return; // если значение вне диапазона — не показываем
     }
@@ -105,12 +109,13 @@ function calculate() {
     alertBox.style.top = "80px";
     alertBox.style.right = "20px";
     alertBox.style.padding = "20px";
-    alertBox.style.backgroundColor = color;
-    alertBox.style.color = "white";
-    alertBox.style.fontSize = "15px";
+    alertBox.style.backgroundColor = bgColor;
+    alertBox.style.fontFamily = "'Inter', sans-serif";
+    alertBox.style.color = textColor;
+    alertBox.style.fontSize = "18px";
     alertBox.style.borderRadius = "10px";
     alertBox.style.boxShadow = "0 4px 15px rgba(0, 0, 0, 0.4)";
-    alertBox.style.maxWidth = "400px";
+    alertBox.style.maxWidth = "450px";
     alertBox.style.zIndex = "10000";
     alertBox.style.opacity = "0";
     alertBox.style.transition = "opacity 0.5s ease, transform 0.5s ease";
@@ -126,7 +131,7 @@ function calculate() {
     setTimeout(() => {
       alertBox.style.opacity = "0";
       alertBox.style.transform = "translateY(-20px)";
-      setTimeout(() => document.body.removeChild(alertBox), 12000);
-    }, 15000);
+      setTimeout(() => document.body.removeChild(alertBox), 17000);
+    }, 20000);
   }
   

@@ -17,7 +17,7 @@
     padding-top: 20px;
     padding-bottom: 30px;
     padding-left: 84px;
-    font-size: 32px;
+    font-size: 36px;
     user-select:none;
     font-family: "Seymour One", sans-serif;
     font-weight: 400;
@@ -25,7 +25,7 @@
 }
 
 .header__name a{
-    color: #F35E1F !important;
+    color: #da4a16 !important;
     text-decoration: none;
 }
 
@@ -102,7 +102,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f15a24;
+    background-color: #da4a16;
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 18px;
@@ -119,14 +119,14 @@
 }
 
 .menu-btn:hover {
-    background-color: #d94d1a;
+    background-color: #9e3914;
 }
 
 
 .header-img{
-    width: 350px;
+    width: 390px;
     margin-top: 60px;
-    margin-left: 878px;
+    margin-left: 880px;
     margin-bottom: 100px;
 }
 
@@ -137,7 +137,7 @@
 }
 
 .header-title1{
-    color: #F35E1F;
+    color: #da4a16;
     font-size: 48px;
     padding-top: 55px;
     margin-left: 150px;
@@ -149,14 +149,14 @@
 .header-line {
     width: 475px;
     height: 2px;
-    background-color: #F35E1F;
+    background-color: #da4a16;
     margin-left:150px;
     margin-top:10px;
     float:left;
   }
 
 .header-title2{
-    color: #F35E1F;
+    color: #da4a16;
     font-size: 16px;
     padding-top: 10px;
     float: left;
@@ -166,7 +166,7 @@
 }
 
 .upload-button {
-    background-color: #F35E1F; 
+    background-color: #da4a16; 
     color: white;
     border: none;
     border-radius: 15px; 
@@ -182,11 +182,11 @@
 }
 
 .upload-button:hover {
-    background-color: #c65423; 
+    background-color: #9e3914; 
 }
 
 .checklist-button{
-    background-color: #F35E1F; 
+    background-color: #da4a16; 
     color: white;
     border: none;
     border-radius: 15px; 
@@ -203,7 +203,7 @@
 }
 
 .checklist-button:hover {
-    background-color: #c65423; 
+    background-color: #9e3914; 
 }
 
 
@@ -213,7 +213,7 @@
 }
 
 .check-title1{
-    color: #F35E1F;
+    color: #da4a16;
     font-size: 48px;
     padding-top: 55px;
     padding-left: 145px;
@@ -233,7 +233,7 @@
 }
 
 .check-title2{
-    color: #F35E1F;
+    color: #da4a16;
     font-size: 32px;
     font-weight:bold;
     padding-left: 183px;
@@ -242,7 +242,7 @@
 }
 
 .check-title3{
-    color: #F35E1F;
+    color: #da4a16;
     font-size: 16px;
     font-weight:bold;
     padding-top:180px;
@@ -260,7 +260,7 @@
 .upload-box {
     width: 450px;
     height: 30px;
-    border: 2px solid #F35E1F;
+    border: 2px solid #da4a16;
     display: flex;
     margin-left: 140px;
     margin-top: 20px;
@@ -270,7 +270,7 @@
     font-family: "Inter", sans-serif;
     font-size: 15px;
     text-align: center;
-    color: #F35E1F;
+    color: #da4a16;
     font-weight: bold;
     justify-content: center;
     position:relative;
@@ -298,7 +298,7 @@
 }
 
 .calculator-title1{
-    color: #F35E1F;
+    color: #da4a16;
     font-size: 48px;
     padding-top: 55px;
     padding-left: 145px;
@@ -309,7 +309,7 @@
 }
 
 .calculator-title2{
-    color: #F35E1F;
+    color: #da4a16;
     font-size: 16px;
     padding-top: 140px;
     float: left;
@@ -331,7 +331,7 @@
 }
 
 .open-form-button{
-    background-color: #F35E1F; 
+    background-color: #da4a16; 
     color: white;
     border: none;
     border-radius: 15px; 
@@ -347,7 +347,7 @@
 }
 
 .open-form-button:hover{
-    background-color: #c65423; 
+    background-color: #9e3914; 
 }
 
 .calc-img{
@@ -366,7 +366,7 @@
 }
 
 .articles-title1{
-    color: #F35E1F;
+    color: #da4a16;
     font-size: 48px;
     padding-top: 55px;
     padding-left: 145px;
@@ -377,7 +377,7 @@
 }
 
 .articles-title2{
-    color: #F35E1F;
+    color: #da4a16;
     font-size: 16px;
     padding-top: 130px;
     float: left;
@@ -396,7 +396,7 @@
 
 .search-container {
     background-color: white;
-    color:#F35E1F;
+    color:#da4a16;
     padding-right: 100px;
     margin-top: 10px;
     float:left;
@@ -407,8 +407,8 @@
   #search-input {
     margin-top: 10px;
     font-size: 16px;
-    color:#F35E1F;
-    border:2px solid #F35E1F;
+    color:#da4a16;
+    border:2px solid #da4a16;
     margin-left: 140px;
     width: 300px;
     height: 30px;
@@ -418,7 +418,7 @@
     margin: 10px;
     margin-left: 0px;
     font-size: 16px;
-    background-color: #F35E1F;
+    background-color: #da4a16;
     color: white;
     height:30px;
     width:100px;
@@ -428,12 +428,12 @@
   }
   
   #search-button:hover {
-    background-color: #c65423;
+    background-color: #9e3914;
   }
 
   #list {
     width:40%;
-    color: #F35E1F;
+    color: #da4a16;
     font-size: 16px;
     padding-top: 20px;
     float: left;
@@ -446,10 +446,10 @@
     margin-bottom: 10px;           
     list-style-type: disc;        
     list-style-position: inside;   
-    color: #F35E1F;                
+    color: #da4a16;                
   }
   #list li a {
-    color: #F35E1F;
+    color: #da4a16;
     text-decoration: none;     
   }
   
@@ -459,7 +459,7 @@
 
   .form_header{
     font-family: "Inter", sans-serif;
-    color: #F35E1F;
+    color: #da4a16;
     font-size: 32px;
     font-weight: bold;
     margin-top:30px;
@@ -468,7 +468,7 @@
 
   .warning{
     font-family: "Inter", sans-serif;
-    color: #F35E1F;
+    color: #da4a16;
     font-size: 16px;
     font-weight:normal;
     margin-top:30px;
@@ -477,7 +477,7 @@
   
   .question{
     font-family: "Inter", sans-serif;
-    color: #F35E1F;
+    color: #da4a16;
     font-size: 18px;
     font-weight: bold;
     margin-top:30px;
@@ -493,7 +493,7 @@
 
   .form_button{
     font-family: "Inter", sans-serif;
-    background-color: #F35E1F; 
+    background-color: #da4a16; 
     color: white;
     border: none;
     border-radius: 15px; 
@@ -508,7 +508,7 @@
   }
 
   .form_button:hover{
-    background-color: #c65423; 
+    background-color: #9e3914; 
 }
 
 .custom-alert {
