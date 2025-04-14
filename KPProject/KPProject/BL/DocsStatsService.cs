@@ -25,6 +25,12 @@ namespace KPProject.BL
             try
             {
                 Logger.LogInformation($"Попытка добавить статистику к документу с id {stats.Id}, время {stats.SpentTime}");
+                bool docExists = await db.Documents.AnyAsync(d => d.Id == stats.Id);
+                if (!docExists)
+                {
+                    Logger.LogWarning($"Документ с id {stats.Id} не существует. Статистика не будет добавлена.");
+                    return false;
+                }
                 var statsField = await db.Statistics.FirstOrDefaultAsync((d) => d.DocumentId == stats.Id);
                 if (statsField != null)
                 {

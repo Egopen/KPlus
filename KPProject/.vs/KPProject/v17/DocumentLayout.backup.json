@@ -3,42 +3,6 @@
   "WorkspaceRootPath": "C:\\FullProject\\KPProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\bl\\docsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\bl\\docsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\bl\\docsstatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\bl\\docsstatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\ui\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\ui\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\ui\\docscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\ui\\docscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\dal\\stats_db\\models\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\dal\\stats_db\\models\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\dto\\request\\addstatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\dto\\request\\addstatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\dal\\documents_db\\docsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\dal\\documents_db\\docsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\dal\\documents_db\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\dal\\documents_db\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -47,80 +11,32 @@
       "RelativeMoniker": "D:0:0:{74598339-71CB-45CF-84D4-1E1818510820}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{74598339-71CB-45CF-84D4-1E1818510820}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\FullProject\\KPProject\\stats_db_init\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:stats_db_init\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\bl\\logger\\loggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\bl\\logger\\loggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\FullProject\\KPProject\\db_init\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:db_init\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\bl\\logger\\iloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\bl\\logger\\iloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\bl\\docsstatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\bl\\docsstatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\dto\\request\\addstatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\dto\\request\\addstatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\ui\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\ui\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\dto\\request\\addstatstodocsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\dto\\request\\addstatstodocsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\dal\\documents_db\\models\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\dal\\documents_db\\models\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\dal\\documents_db\\models\\documentcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\dal\\documents_db\\models\\documentcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\dto\\servicestoui\\briefdocsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\dto\\servicestoui\\briefdocsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\dto\\servicestoui\\elasticdocsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\dto\\servicestoui\\elasticdocsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\envreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\envreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\elasticsearchfillingscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\elasticsearchfillingscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\dto\\elasticsearch\\elasticdoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\dto\\elasticsearch\\elasticdoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\dto\\request\\searchrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\dto\\request\\searchrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\dto\\response\\startdocsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\dto\\response\\startdocsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\FullProject\\KPProject\\db_init\\backup_documents.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:db_init\\backup_documents.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\FullProject\\KPProject\\indexer\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:indexer\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\FullProject\\KPProject\\indexer\\indexer.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:indexer\\indexer.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\FullProject\\KPProject\\indexer\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:indexer\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\FullProject\\KPProject\\init-db-scripts\\init_db.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:init-db-scripts\\init_db.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\FullProject\\KPProject\\db_init\\backup_documents.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:db_init\\backup_documents.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -130,33 +46,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddStatsDTO.cs",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\DTO\\Request\\AddStatsDTO.cs",
-              "RelativeDocumentMoniker": "KPProject\\DTO\\Request\\AddStatsDTO.cs",
-              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\DTO\\Request\\AddStatsDTO.cs",
-              "RelativeToolTip": "KPProject\\DTO\\Request\\AddStatsDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T11:14:19.987Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "dockerfile",
+              "DocumentMoniker": "C:\\FullProject\\KPProject\\db_init\\dockerfile",
+              "RelativeDocumentMoniker": "db_init\\dockerfile",
+              "ToolTip": "C:\\FullProject\\KPProject\\db_init\\dockerfile",
+              "RelativeToolTip": "db_init\\dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-10T13:46:52.299Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Stats.cs",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\DAL\\stats_db\\Models\\Stats.cs",
-              "RelativeDocumentMoniker": "KPProject\\DAL\\stats_db\\Models\\Stats.cs",
-              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\DAL\\stats_db\\Models\\Stats.cs",
-              "RelativeToolTip": "KPProject\\DAL\\stats_db\\Models\\Stats.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T11:12:13.396Z",
-              "EditorCaption": ""
+              "DocumentIndex": 2,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\Dockerfile",
+              "RelativeDocumentMoniker": "KPProject\\Dockerfile",
+              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\Dockerfile",
+              "RelativeToolTip": "KPProject\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-10T13:40:51.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\FullProject\\KPProject\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\FullProject\\KPProject\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-04-10T13:31:26.041Z"
             },
             {
               "$type": "Document",
@@ -166,170 +92,62 @@
               "RelativeDocumentMoniker": "KPProject\\Program.cs",
               "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\Program.cs",
               "RelativeToolTip": "KPProject\\Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwB4AAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:32:34.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DocsDBContext.cs",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\DAL\\documents_db\\DocsDBContext.cs",
-              "RelativeDocumentMoniker": "KPProject\\DAL\\documents_db\\DocsDBContext.cs",
-              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\DAL\\documents_db\\DocsDBContext.cs",
-              "RelativeToolTip": "KPProject\\DAL\\documents_db\\DocsDBContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T13:10:37.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DocsStatsService.cs",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\BL\\DocsStatsService.cs",
-              "RelativeDocumentMoniker": "KPProject\\BL\\DocsStatsService.cs",
-              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\BL\\DocsStatsService.cs",
-              "RelativeToolTip": "KPProject\\BL\\DocsStatsService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAxwEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:49:29.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StatisticsController.cs",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\UI\\StatisticsController.cs",
-              "RelativeDocumentMoniker": "KPProject\\UI\\StatisticsController.cs",
-              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\UI\\StatisticsController.cs",
-              "RelativeToolTip": "KPProject\\UI\\StatisticsController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCEAAABqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:45:57.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T13:01:20.862Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DocsService.cs",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\BL\\DocsService.cs",
-              "RelativeDocumentMoniker": "KPProject\\BL\\DocsService.cs",
-              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\BL\\DocsService.cs",
-              "RelativeToolTip": "KPProject\\BL\\DocsService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwC0AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T09:30:20.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DocsController.cs",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\UI\\DocsController.cs",
-              "RelativeDocumentMoniker": "KPProject\\UI\\DocsController.cs",
-              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\UI\\DocsController.cs",
-              "RelativeToolTip": "KPProject\\UI\\DocsController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwDQAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T16:22:58.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Document.cs",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\DAL\\documents_db\\Models\\Document.cs",
-              "RelativeDocumentMoniker": "KPProject\\DAL\\documents_db\\Models\\Document.cs",
-              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\DAL\\documents_db\\Models\\Document.cs",
-              "RelativeToolTip": "KPProject\\DAL\\documents_db\\Models\\Document.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T13:01:10.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": ".env",
               "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\.env",
               "RelativeDocumentMoniker": "KPProject\\.env",
               "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\.env",
               "RelativeToolTip": "KPProject\\.env",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-25T13:12:30.326Z",
+              "WhenOpened": "2025-04-07T12:56:12.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "dockerfile",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\stats_db_init\\dockerfile",
-              "RelativeDocumentMoniker": "stats_db_init\\dockerfile",
-              "ToolTip": "C:\\FullProject\\KPProject\\stats_db_init\\dockerfile",
-              "RelativeToolTip": "stats_db_init\\dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-31T09:47:51.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LoggerService.cs",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\BL\\Logger\\LoggerService.cs",
-              "RelativeDocumentMoniker": "KPProject\\BL\\Logger\\LoggerService.cs",
-              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\BL\\Logger\\LoggerService.cs",
-              "RelativeToolTip": "KPProject\\BL\\Logger\\LoggerService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "AddStatsDTO.cs",
+              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\DTO\\Request\\AddStatsDTO.cs",
+              "RelativeDocumentMoniker": "KPProject\\DTO\\Request\\AddStatsDTO.cs",
+              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\DTO\\Request\\AddStatsDTO.cs",
+              "RelativeToolTip": "KPProject\\DTO\\Request\\AddStatsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T14:13:29.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T12:49:17.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\FullProject\\KPProject\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBUAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-03-24T13:55:34.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ElasticDocsDTO.cs",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\DTO\\ServicesToUI\\ElasticDocsDTO.cs",
-              "RelativeDocumentMoniker": "KPProject\\DTO\\ServicesToUI\\ElasticDocsDTO.cs",
-              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\DTO\\ServicesToUI\\ElasticDocsDTO.cs",
-              "RelativeToolTip": "KPProject\\DTO\\ServicesToUI\\ElasticDocsDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "DocsStatsService.cs",
+              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\BL\\DocsStatsService.cs",
+              "RelativeDocumentMoniker": "KPProject\\BL\\DocsStatsService.cs",
+              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\BL\\DocsStatsService.cs",
+              "RelativeToolTip": "KPProject\\BL\\DocsStatsService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwD4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T09:51:38.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T12:06:14.579Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "BriefDocsDTO.cs",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\DTO\\ServicesToUI\\BriefDocsDTO.cs",
-              "RelativeDocumentMoniker": "KPProject\\DTO\\ServicesToUI\\BriefDocsDTO.cs",
-              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\DTO\\ServicesToUI\\BriefDocsDTO.cs",
-              "RelativeToolTip": "KPProject\\DTO\\ServicesToUI\\BriefDocsDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "StatisticsController.cs",
+              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\UI\\StatisticsController.cs",
+              "RelativeDocumentMoniker": "KPProject\\UI\\StatisticsController.cs",
+              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\UI\\StatisticsController.cs",
+              "RelativeToolTip": "KPProject\\UI\\StatisticsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T11:57:24.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:45:57.891Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 8,
               "Title": "AddStatsToDocsDTO.cs",
               "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\DTO\\Request\\AddStatsToDocsDTO.cs",
               "RelativeDocumentMoniker": "KPProject\\DTO\\Request\\AddStatsToDocsDTO.cs",
@@ -337,167 +155,7 @@
               "RelativeToolTip": "KPProject\\DTO\\Request\\AddStatsToDocsDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:48:09.135Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ILoggerService.cs",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\BL\\Logger\\ILoggerService.cs",
-              "RelativeDocumentMoniker": "KPProject\\BL\\Logger\\ILoggerService.cs",
-              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\BL\\Logger\\ILoggerService.cs",
-              "RelativeToolTip": "KPProject\\BL\\Logger\\ILoggerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T14:13:03.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "EnvReader.cs",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\EnvReader.cs",
-              "RelativeDocumentMoniker": "KPProject\\EnvReader.cs",
-              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\EnvReader.cs",
-              "RelativeToolTip": "KPProject\\EnvReader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T10:53:49.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Statistic.cs",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\DAL\\documents_db\\Models\\Statistic.cs",
-              "RelativeDocumentMoniker": "KPProject\\DAL\\documents_db\\Models\\Statistic.cs",
-              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\DAL\\documents_db\\Models\\Statistic.cs",
-              "RelativeToolTip": "KPProject\\DAL\\documents_db\\Models\\Statistic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T09:42:36.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DocumentContent.cs",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\DAL\\documents_db\\Models\\DocumentContent.cs",
-              "RelativeDocumentMoniker": "KPProject\\DAL\\documents_db\\Models\\DocumentContent.cs",
-              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\DAL\\documents_db\\Models\\DocumentContent.cs",
-              "RelativeToolTip": "KPProject\\DAL\\documents_db\\Models\\DocumentContent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T08:28:08.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ElasticDoc.cs",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\DTO\\ElasticSearch\\ElasticDoc.cs",
-              "RelativeDocumentMoniker": "KPProject\\DTO\\ElasticSearch\\ElasticDoc.cs",
-              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\DTO\\ElasticSearch\\ElasticDoc.cs",
-              "RelativeToolTip": "KPProject\\DTO\\ElasticSearch\\ElasticDoc.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T15:23:13.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ElasticSearchFillingScript.cs",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\ElasticSearchFillingScript.cs",
-              "RelativeDocumentMoniker": "KPProject\\ElasticSearchFillingScript.cs",
-              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\ElasticSearchFillingScript.cs",
-              "RelativeToolTip": "KPProject\\ElasticSearchFillingScript.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAApwB4AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T15:18:34.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "SearchRequestDTO.cs",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\DTO\\Request\\SearchRequestDTO.cs",
-              "RelativeDocumentMoniker": "KPProject\\DTO\\Request\\SearchRequestDTO.cs",
-              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\DTO\\Request\\SearchRequestDTO.cs",
-              "RelativeToolTip": "KPProject\\DTO\\Request\\SearchRequestDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T09:52:04.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "StartDocsResponse.cs",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\DTO\\Response\\StartDocsResponse.cs",
-              "RelativeDocumentMoniker": "KPProject\\DTO\\Response\\StartDocsResponse.cs",
-              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\DTO\\Response\\StartDocsResponse.cs",
-              "RelativeToolTip": "KPProject\\DTO\\Response\\StartDocsResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T09:29:40.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "backup_documents.sql ",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\db_init\\backup_documents.sql",
-              "RelativeDocumentMoniker": "db_init\\backup_documents.sql",
-              "ToolTip": "backup_documents.sql ",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-25T12:34:18.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\indexer\\Dockerfile",
-              "RelativeDocumentMoniker": "indexer\\Dockerfile",
-              "ToolTip": "C:\\FullProject\\KPProject\\indexer\\Dockerfile",
-              "RelativeToolTip": "indexer\\Dockerfile",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-24T15:16:46.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "indexer.py",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\indexer\\indexer.py",
-              "RelativeDocumentMoniker": "indexer\\indexer.py",
-              "ToolTip": "C:\\FullProject\\KPProject\\indexer\\indexer.py",
-              "RelativeToolTip": "indexer\\indexer.py",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-03-24T15:16:46.678Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "init_db.sh",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\init-db-scripts\\init_db.sh",
-              "RelativeDocumentMoniker": "init-db-scripts\\init_db.sh",
-              "ToolTip": "C:\\FullProject\\KPProject\\init-db-scripts\\init_db.sh",
-              "RelativeToolTip": "init-db-scripts\\init_db.sh",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
-              "WhenOpened": "2025-03-24T15:16:39.872Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "requirements.txt",
-              "DocumentMoniker": "C:\\FullProject\\KPProject\\indexer\\requirements.txt",
-              "RelativeDocumentMoniker": "indexer\\requirements.txt",
-              "ToolTip": "C:\\FullProject\\KPProject\\indexer\\requirements.txt",
-              "RelativeToolTip": "indexer\\requirements.txt",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-03-24T15:16:46.796Z"
+              "WhenOpened": "2025-03-28T12:48:09.135Z"
             }
           ]
         }

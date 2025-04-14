@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "KPProject.UI.DocsController",
+    "Method": "GetDocById",
+    "RelativePath": "Franchisto/Docs/GetDocById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KPProject.UI.DocsController",
     "Method": "GetStartDocs",
     "RelativePath": "Franchisto/Docs/GetStartDocs",
     "HttpMethod": "GET",

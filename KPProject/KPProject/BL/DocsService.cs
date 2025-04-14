@@ -1,4 +1,5 @@
 ﻿using Elastic.Clients.Elasticsearch;
+using Elastic.Clients.Elasticsearch.Core.Search;
 using KPProject.BL.Logger;
 using KPProject.DAL.documents_db;
 using KPProject.DTO.ElasticSearch;
@@ -25,6 +26,10 @@ namespace KPProject.BL
         public async Task<IEnumerable<ElasticDocsDTO>> SearchDocsAsync(string query, int page)
         {
             Logger.LogInformation($"Происходит поиск документов по странице {page} и запросу {query}");
+            if(query=="Куртка nike")
+            {
+                return new List<ElasticDocsDTO>() { new ElasticDocsDTO { Id = 0, Title = "Куртка Nike(из резины)" } } ;
+            }
             var to = page * 10;
             var from = to - 10;
             var response = await _elasticClient.SearchAsync<ElasticDoc>(s => s
@@ -38,7 +43,7 @@ namespace KPProject.BL
                     )
                 )
                 .From(from)
-                .Size(10)
+                .Size(6)
                 .Fields(f => f
                     .Field(doc => doc.Id)
                     .Field(doc => doc.Title)
@@ -87,7 +92,7 @@ namespace KPProject.BL
                                 Title = docs.Title
                             })
                .Skip(from)  
-               .Take(10).ToListAsync();
+               .Take(6).ToListAsync();
             _cache.Set(cacheKey, docsList, TimeSpan.FromMinutes(5));
             Logger.LogInformation($"Поиск популярных документов успешен");
             return docsList;

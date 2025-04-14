@@ -13,10 +13,8 @@ services:
       - "5433:5432"  
     build:
         dockerfile: ./db_init/dockerfile
+
   
-
-
-
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:8.12.0
     environment:
@@ -29,6 +27,18 @@ services:
     ports:
       - "9200:9200"
       - "9300:9300"
+
+  search_stats_api:
+    build:
+     context: ./KPProject
+    ports:
+     - "8080:8080"
+    depends_on:
+     - postgres
+     - elasticsearch
+    env_file:
+      - ./KPProject/.env
+
 
 volumes:
   pgdata:

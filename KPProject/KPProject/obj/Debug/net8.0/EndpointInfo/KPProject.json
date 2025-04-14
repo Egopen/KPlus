@@ -6,6 +6,29 @@
     "version": "v1"
   },
   "paths": {
+    "/Franchisto/Docs/GetDocById": {
+      "get": {
+        "tags": [
+          "Docs"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/Franchisto/Docs/GetStartDocs": {
       "get": {
         "tags": [
