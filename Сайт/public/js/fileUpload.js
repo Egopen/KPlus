@@ -2,9 +2,8 @@ document.getElementById('fileInput').addEventListener('change', async function(e
     const file = event.target.files[0];
     const uploadText = document.getElementById('uploadText');
     const fileNameSpan = document.getElementById('fileName');
-    const preview = document.getElementById('preview');
 
-    if (!uploadText || !fileNameSpan || !preview) return;
+    if (!uploadText || !fileNameSpan ) return;
 
     if (file) {
         if (file.type !== "application/pdf") {
@@ -19,29 +18,30 @@ document.getElementById('fileInput').addEventListener('change', async function(e
         // Обновляем текст и показываем превью
         fileNameSpan.textContent = file.name;
         uploadText.textContent = "Файл загружен";
-        preview.src = URL.createObjectURL(file);
-        preview.style.display = 'block';
 
         const formData = new FormData();
         formData.append("file", file);
+
+        console.log("Отправка файла:", file.name);
 
         try {
             const response = await fetch("http://localhost:8081/api/analyze", {
                 method: "POST",
                 body: formData,
             });
-
+        
+            console.log("Response status:", response.status);
+        
             if (!response.ok) {
                 throw new Error("Ошибка анализа: " + response.statusText);
             }
-
+        
             const html = await response.text();
-
+            console.log("Ответ от сервера:", html);
+        
             localStorage.setItem("analysisResult", html);
-
-           
-            window.location.href = "/doc_analysis";  
-
+            window.location.href = "/doc_analysis";
+        
         } catch (error) {
             console.error("Ошибка при отправке:", error);
             alert("Не удалось отправить файл: " + error.message);
