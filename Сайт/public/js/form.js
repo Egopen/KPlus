@@ -87,7 +87,7 @@ function calculate() {
       `;
       bgColor = "#d6a934"; // матовый жёлтый
       textColor = "#333333";
-    } else if (coefficient >= 0.71 && coefficient <= 1) {
+    } else if (coefficient >= 0.71) {
       explanation = `
   Если Ваш процент в диапазоне от 71% до 100%  — высокая экономическая эффективность
   
