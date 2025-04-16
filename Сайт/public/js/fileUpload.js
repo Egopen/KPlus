@@ -8,17 +8,14 @@ document.getElementById('fileInput').addEventListener('change', async function(e
     if (file) {
         if (file.type !== "application/pdf") {
             alert("Пожалуйста, загрузите только PDF-файл!");
-            event.target.value = null;  // Сбросить input
-            fileNameSpan.textContent = "Файл не выбран";
+            event.target.value = null;  
             uploadText.textContent = "Нажмите для загрузки";
             preview.style.display = 'none';
             return;
         }
 
-        // Обновляем текст и показываем превью
-        fileNameSpan.textContent = file.name;
-        uploadText.textContent = "Файл загружен";
-
+        uploadText.textContent = "Файл обрабатывается моделью...";
+        fileInput.disabled = true;
         const formData = new FormData();
         formData.append("file", file);
 
@@ -43,11 +40,15 @@ document.getElementById('fileInput').addEventListener('change', async function(e
             window.location.href = "/doc_analysis";
         
         } catch (error) {
+            event.target.value = null;
             console.error("Ошибка при отправке:", error);
             alert("Не удалось отправить файл: " + error.message);
+            fileInput.disabled = flase;
+            uploadText.textContent = "Нажмите для загрузки";
         }
     } else {
-        fileNameSpan.textContent = "Файл не выбран";
+        fileInput.disabled = flase;
+        event.target.value = null;
         uploadText.textContent = "Нажмите для загрузки";
         preview.style.display = 'none';
     }
