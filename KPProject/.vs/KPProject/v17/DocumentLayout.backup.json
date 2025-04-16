@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\FullProject\\KPProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{74598339-71CB-45CF-84D4-1E1818510820}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{74598339-71CB-45CF-84D4-1E1818510820}|C:\\FullProject\\KPProject\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{74598339-71CB-45CF-84D4-1E1818510820}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{74598339-71CB-45CF-84D4-1E1818510820}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\elasticsearchfillingscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\elasticsearchfillingscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\dto\\elasticsearch\\elasticdoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\dto\\elasticsearch\\elasticdoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|solutionrelative:kpproject\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4B229C8-D27B-4E21-A56A-75911E77B2E2}|KPProject\\KPProject.csproj|c:\\fullproject\\kpproject\\kpproject\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -50,7 +58,33 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "ElasticSearchFillingScript.cs",
+              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\ElasticSearchFillingScript.cs",
+              "RelativeDocumentMoniker": "KPProject\\ElasticSearchFillingScript.cs",
+              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\ElasticSearchFillingScript.cs",
+              "RelativeToolTip": "KPProject\\ElasticSearchFillingScript.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwC8AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T13:05:18.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ElasticDoc.cs",
+              "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\DTO\\ElasticSearch\\ElasticDoc.cs",
+              "RelativeDocumentMoniker": "KPProject\\DTO\\ElasticSearch\\ElasticDoc.cs",
+              "ToolTip": "C:\\FullProject\\KPProject\\KPProject\\DTO\\ElasticSearch\\ElasticDoc.cs",
+              "RelativeToolTip": "KPProject\\DTO\\ElasticSearch\\ElasticDoc.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T13:04:09.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "dockerfile",
               "DocumentMoniker": "C:\\FullProject\\KPProject\\db_init\\dockerfile",
               "RelativeDocumentMoniker": "db_init\\dockerfile",
@@ -62,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\Dockerfile",
               "RelativeDocumentMoniker": "KPProject\\Dockerfile",
@@ -74,19 +108,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\FullProject\\KPProject\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
               "ToolTip": "C:\\FullProject\\KPProject\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwCwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-04-10T13:31:26.041Z"
+              "WhenOpened": "2025-04-10T13:31:26.041Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\Program.cs",
               "RelativeDocumentMoniker": "KPProject\\Program.cs",
@@ -98,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": ".env",
               "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\.env",
               "RelativeDocumentMoniker": "KPProject\\.env",
@@ -111,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AddStatsDTO.cs",
               "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\DTO\\Request\\AddStatsDTO.cs",
               "RelativeDocumentMoniker": "KPProject\\DTO\\Request\\AddStatsDTO.cs",
@@ -123,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "DocsStatsService.cs",
               "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\BL\\DocsStatsService.cs",
               "RelativeDocumentMoniker": "KPProject\\BL\\DocsStatsService.cs",
@@ -135,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "StatisticsController.cs",
               "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\UI\\StatisticsController.cs",
               "RelativeDocumentMoniker": "KPProject\\UI\\StatisticsController.cs",
@@ -147,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "AddStatsToDocsDTO.cs",
               "DocumentMoniker": "C:\\FullProject\\KPProject\\KPProject\\DTO\\Request\\AddStatsToDocsDTO.cs",
               "RelativeDocumentMoniker": "KPProject\\DTO\\Request\\AddStatsToDocsDTO.cs",

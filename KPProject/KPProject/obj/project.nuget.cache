@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LD0HiBi3LvE=",
+  "dgSpecHash": "y6q86wwYDEY=",
   "success": true,
-  "projectFilePath": "C:\\FullProject\\KPProject\\KPProject\\KPProject.csproj",
+  "projectFilePath": "C:\\FullProject\\KPProject\\KPlus\\KPProject\\KPProject\\KPProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Егор\\.nuget\\packages\\elastic.clients.elasticsearch\\8.17.3\\elastic.clients.elasticsearch.8.17.3.nupkg.sha512",
     "C:\\Users\\Егор\\.nuget\\packages\\elastic.transport\\0.5.9\\elastic.transport.0.5.9.nupkg.sha512",

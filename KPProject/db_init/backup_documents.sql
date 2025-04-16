@@ -5,7 +5,7 @@
 -- Dumped from database version 17.4
 -- Dumped by pg_dump version 17.4
 
--- Started on 2025-04-14 15:52:17
+-- Started on 2025-04-16 10:08:29
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -350,7 +350,7 @@ ALTER TABLE ONLY public.statistics
     ADD CONSTRAINT statistics_document_id_fkey FOREIGN KEY (document_id) REFERENCES public.documents(id) ON DELETE CASCADE;
 
 
--- Completed on 2025-04-14 15:52:17
+-- Completed on 2025-04-16 10:08:30
 
 --
 -- PostgreSQL database dump complete

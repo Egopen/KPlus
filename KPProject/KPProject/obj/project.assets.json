@@ -1797,11 +1797,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\FullProject\\KPProject\\KPProject\\KPProject.csproj",
+      "projectUniqueName": "C:\\FullProject\\KPProject\\KPlus\\KPProject\\KPProject\\KPProject.csproj",
       "projectName": "KPProject",
-      "projectPath": "C:\\FullProject\\KPProject\\KPProject\\KPProject.csproj",
+      "projectPath": "C:\\FullProject\\KPProject\\KPlus\\KPProject\\KPProject\\KPProject.csproj",
       "packagesPath": "C:\\Users\\Егор\\.nuget\\packages\\",
-      "outputPath": "C:\\FullProject\\KPProject\\KPProject\\obj\\",
+      "outputPath": "C:\\FullProject\\KPProject\\KPlus\\KPProject\\KPProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
