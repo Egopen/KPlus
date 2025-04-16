@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KPProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+543a5c18d90060ae9e0627f429acef990602d194")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83cd19523ab2a70aa04002bc9a6cdb7cd883f4f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("KPProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KPProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
